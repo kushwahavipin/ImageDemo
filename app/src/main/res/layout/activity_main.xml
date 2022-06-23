@@ -1,0 +1,33 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <ImageView
+       android:src="@drawable/sourav"
+       android:layout_marginTop="50dp"
+       android:id="@+id/iv"
+       android:layout_gravity="center_horizontal"
+       android:layout_width="300dp"
+       android:layout_height="300dp"></ImageView>
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <Button
+        android:id="@+id/b1"
+        android:text="Dhoni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/b2"
+        android:text="ABD"
+        android:layout_marginLeft="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
